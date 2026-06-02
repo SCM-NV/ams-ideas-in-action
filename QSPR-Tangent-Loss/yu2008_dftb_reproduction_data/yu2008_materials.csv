@@ -1,0 +1,41 @@
+material_id,polymer_key,species_role,repeat_unit_smiles,oligomer_n,oligomer_smiles,structure_file,density_g_cm3,molar_volume_cm3_mol,run_adf,run_tddft,run_pbe_freq,run_dftb_freq,notes
+PVC_monomer,PVC,monomer,C=CCl,1,C=CCl,,,,yes,no,yes,yes,Yu2008 vinyl chloride monomer
+PVC_repeat,PVC,repeat,CC(Cl)C,1,CC(Cl)C,,,,yes,no,yes,yes,Yu2008 capped vinyl chloride repeat proxy
+PVAc_monomer,PVAc,monomer,C=COC(C)=O,1,C=COC(C)=O,,,,yes,no,yes,yes,Yu2008 vinyl acetate monomer
+PVAc_repeat,PVAc,repeat,CC(OC(C)=O)C,1,CC(OC(C)=O)C,,,,yes,no,yes,yes,Yu2008 capped vinyl acetate repeat proxy
+PVCH_monomer,PVCH,monomer,C=CC1CCCCC1,1,C=CC1CCCCC1,,,,yes,no,yes,yes,Yu2008 vinyl cyclohexane monomer
+PVCH_repeat,PVCH,repeat,CC(C1CCCCC1)C,1,CC(C1CCCCC1)C,,,,yes,no,yes,yes,Yu2008 capped vinyl cyclohexane repeat proxy
+PNVC_monomer,PNVC,monomer,C=CN1c2ccccc2c2ccccc21,1,C=CN1c2ccccc2c2ccccc21,,,,yes,no,yes,yes,Yu2008 N-vinyl carbazole monomer
+PNVC_repeat,PNVC,repeat,CC(N1c2ccccc2c2ccccc21)C,1,CC(N1c2ccccc2c2ccccc21)C,,,,yes,no,yes,yes,Yu2008 capped N-vinyl carbazole repeat proxy
+PMMA_monomer,PMMA,monomer,C=C(C)C(=O)OC,1,C=C(C)C(=O)OC,,,,yes,no,yes,yes,Yu2008 methyl methacrylate monomer
+PMMA_repeat,PMMA,repeat,CC(C)(C(=O)OC)C,1,CC(C)(C(=O)OC)C,,,,yes,no,yes,yes,Yu2008 capped methyl methacrylate repeat proxy
+PEMA_monomer,PEMA,monomer,C=C(C)C(=O)OCC,1,C=C(C)C(=O)OCC,,,,yes,no,yes,yes,Yu2008 ethyl methacrylate monomer
+PEMA_repeat,PEMA,repeat,CC(C)(C(=O)OCC)C,1,CC(C)(C(=O)OCC)C,,,,yes,no,yes,yes,Yu2008 capped ethyl methacrylate repeat proxy
+PiBMA_monomer,PiBMA,monomer,C=C(C)C(=O)OCC(C)C,1,C=C(C)C(=O)OCC(C)C,,,,yes,no,yes,yes,Yu2008 isobutyl methacrylate monomer
+PiBMA_repeat,PiBMA,repeat,CC(C)(C(=O)OCC(C)C)C,1,CC(C)(C(=O)OCC(C)C)C,,,,yes,no,yes,yes,Yu2008 capped isobutyl methacrylate repeat proxy
+PnBMA_monomer,PnBMA,monomer,C=C(C)C(=O)OCCCC,1,C=C(C)C(=O)OCCCC,,,,yes,no,yes,yes,Yu2008 n-butyl methacrylate monomer
+PnBMA_repeat,PnBMA,repeat,CC(C)(C(=O)OCCCC)C,1,CC(C)(C(=O)OCCCC)C,,,,yes,no,yes,yes,Yu2008 capped n-butyl methacrylate repeat proxy
+PCHMA_monomer,PCHMA,monomer,C=C(C)C(=O)OC1CCCCC1,1,C=C(C)C(=O)OC1CCCCC1,,,,yes,no,yes,yes,Yu2008 cyclohexyl methacrylate monomer
+PCHMA_repeat,PCHMA,repeat,CC(C)(C(=O)OC1CCCCC1)C,1,CC(C)(C(=O)OC1CCCCC1)C,,,,yes,no,yes,yes,Yu2008 capped cyclohexyl methacrylate repeat proxy
+PP_monomer,PP,monomer,C=CC,1,C=CC,,,,yes,no,yes,yes,Yu2008 propylene monomer
+PP_repeat,PP,repeat,CC(C)C,1,CC(C)C,,,,yes,no,yes,yes,Yu2008 capped polypropylene repeat proxy
+PIB_monomer,PIB,monomer,C=C(C)C,1,C=C(C)C,,,,yes,no,yes,yes,Yu2008 isobutylene monomer
+PIB_repeat,PIB,repeat,CC(C)(C)C,1,CC(C)(C)C,,,,yes,no,yes,yes,Yu2008 capped polyisobutylene repeat proxy
+PoVP_monomer,PoVP,monomer,C=Cc1ncccc1,1,C=Cc1ncccc1,,,,yes,no,yes,yes,Yu2008 2-vinyl pyridine monomer proxy
+PoVP_repeat,PoVP,repeat,CC(c1ncccc1)C,1,CC(c1ncccc1)C,,,,yes,no,yes,yes,Yu2008 capped 2-vinyl pyridine repeat proxy
+PVA_monomer,PVA,monomer,C=CO,1,C=CO,,,,yes,no,yes,yes,Yu2008 vinyl alcohol monomer proxy
+PVA_repeat,PVA,repeat,CC(O)C,1,CC(O)C,,,,yes,no,yes,yes,Yu2008 capped vinyl alcohol repeat proxy
+PE_monomer,PE,monomer,C=C,1,C=C,,,,yes,no,yes,yes,Yu2008 ethylene monomer
+PE_repeat,PE,repeat,CCC,1,CCC,,,,yes,no,yes,yes,Yu2008 capped polyethylene repeat proxy
+PVN_monomer,PVN,monomer,C=Cc1cccc2ccccc12,1,C=Cc1cccc2ccccc12,,,,yes,no,yes,yes,Yu2008 alpha-vinyl naphthalene monomer proxy
+PVN_repeat,PVN,repeat,CC(c1cccc2ccccc12)C,1,CC(c1cccc2ccccc12)C,,,,yes,no,yes,yes,Yu2008 capped alpha-vinyl naphthalene repeat proxy
+PpClS_monomer,PpClS,monomer,C=Cc1ccc(Cl)cc1,1,C=Cc1ccc(Cl)cc1,,,,yes,no,yes,yes,Yu2008 p-chlorostyrene monomer
+PpClS_repeat,PpClS,repeat,CC(c1ccc(Cl)cc1)C,1,CC(c1ccc(Cl)cc1)C,,,,yes,no,yes,yes,Yu2008 capped p-chlorostyrene repeat proxy
+PmClS_monomer,PmClS,monomer,C=Cc1cccc(Cl)c1,1,C=Cc1cccc(Cl)c1,,,,yes,no,yes,yes,Yu2008 m-chlorostyrene monomer
+PmClS_repeat,PmClS,repeat,CC(c1cccc(Cl)c1)C,1,CC(c1cccc(Cl)c1)C,,,,yes,no,yes,yes,Yu2008 capped m-chlorostyrene repeat proxy
+P34DClS_monomer,P34DClS,monomer,C=Cc1ccc(Cl)c(Cl)c1,1,C=Cc1ccc(Cl)c(Cl)c1,,,,yes,no,yes,yes,Yu2008 3-4-dichlorostyrene monomer
+P34DClS_repeat,P34DClS,repeat,CC(c1ccc(Cl)c(Cl)c1)C,1,CC(c1ccc(Cl)c(Cl)c1)C,,,,yes,no,yes,yes,Yu2008 capped 3-4-dichlorostyrene repeat proxy
+PAN_monomer,PAN,monomer,C=CC#N,1,C=CC#N,,,,yes,no,yes,yes,Yu2008 acrylonitrile monomer
+PAN_repeat,PAN,repeat,CC(C#N)C,1,CC(C#N)C,,,,yes,no,yes,yes,Yu2008 capped acrylonitrile repeat proxy
+PS_monomer,PS,monomer,C=Cc1ccccc1,1,C=Cc1ccccc1,,,,yes,no,yes,yes,Yu2008 styrene monomer
+PS_repeat,PS,repeat,CC(c1ccccc1)C,1,CC(c1ccccc1)C,,,,yes,no,yes,yes,Yu2008 capped polystyrene repeat proxy
