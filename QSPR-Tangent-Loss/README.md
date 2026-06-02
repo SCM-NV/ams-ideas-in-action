@@ -1,16 +1,19 @@
 # Yu 2008 Tan-Loss QSPR Reproduction
 
-This repository contains a Jupyter notebook and input data for reproducing a tan-loss QSPR workflow based on Yu et al. 2008, using AMS/PLAMS and DFTB descriptors.
+This folder contains two versions of the same Jupyter notebook for an AMS Ideas in Action example based on Yu et al. 2008.
+
+Use the executed notebook to inspect the reference results. Use the clean notebook if you want to rerun the workflow from a blank state.
 
 ## Contents
 
-- `yu2008_tanloss_dftb_reproduction_clean.ipynb`: public notebook with outputs cleared.
+- `yu2008_tanloss_dftb_reproduction_executed.ipynb`: notebook with reference outputs included.
+- `yu2008_tanloss_dftb_reproduction_clean.ipynb`: same workflow with outputs cleared.
 - `yu2008_dftb_reproduction_data/yu2008_materials.csv`: material and structure proxy definitions.
-- `yu2008_dftb_reproduction_data/yu2008_tanloss_observations.csv`: tan-loss observations used by the notebook.
+- `yu2008_dftb_reproduction_data/yu2008_tanloss_observations.csv`: tan-loss observations used by both notebooks.
 
 ## Software Used
 
-The notebook uses:
+The notebooks use:
 
 - Python
 - AMS/PLAMS
@@ -24,11 +27,11 @@ The DFTB descriptor section requires a working AMS installation with PLAMS avail
 
 ## How to Run
 
-1. Open `yu2008_tanloss_dftb_reproduction_clean.ipynb` in Jupyter.
-2. Make sure the folder `yu2008_dftb_reproduction_data` is in the same folder as the notebook.
+1. Open `yu2008_tanloss_dftb_reproduction_clean.ipynb` in Jupyter if you want a fresh run.
+2. Make sure `yu2008_dftb_reproduction_data` is in the same folder as the notebook.
 3. Run the notebook cells from top to bottom.
 
-The notebook writes generated results to `yu2008_dftb_reproduction_outputs/`. That output folder is not included here.
+The notebooks write generated results to `yu2008_dftb_reproduction_outputs/`. That generated output folder is not required to view the executed notebook.
 
 ## Reference
 
