@@ -1,0 +1,23 @@
+{
+  "rows": 29815,
+  "pairs": 967,
+  "train_rows": 24079,
+  "test_rows": 5736,
+  "train_pairs": 773,
+  "test_pairs": 194,
+  "best_by_metric": {
+    "feature_set": "rdkit_top12_plus_sg1",
+    "model": "extra_trees_light",
+    "n_features": 100,
+    "train_R2_mN_m": 0.9132090114592492,
+    "train_MAE_mN_m": 0.7441871131463185,
+    "train_RMSE_mN_m": 4.508977234351603,
+    "train_R2_log": 0.97739475009652,
+    "train_RMSE_log": 0.0738139326769737,
+    "test_R2_mN_m": 0.9481347745333842,
+    "test_MAE_mN_m": 1.8910970227264112,
+    "test_RMSE_mN_m": 3.286326852812471,
+    "test_R2_log": 0.9054313098638829,
+    "test_RMSE_log": 0.14578160868666198
+  }
+}
